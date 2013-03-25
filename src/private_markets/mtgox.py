@@ -92,6 +92,7 @@ class PrivateMtGox(Market):
             response = urllib2.urlopen(req)
             if response.getcode() == 200:
                 jsonstr = response.read()
+            logging.debug(jsonstr)
             return json.loads(jsonstr)
         except Exception, err:
             logging.error('Can t request MTGox, %s' % err)

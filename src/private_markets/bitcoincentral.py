@@ -6,7 +6,7 @@ import sys
 import json
 from decimal import Decimal
 import config
-
+import logging
 
 class PrivateBitcoinCentral(Market):
     balance_url = "https://bitcoin-central.net/api/v1/balances/"
@@ -58,6 +58,7 @@ class PrivateBitcoinCentral(Market):
         if price:
             params["price"] = price
         response = self._send_request(self.trade_url, params)
+        logging.debug(response)
         return response
 
     def buy(self, amount, price=None):

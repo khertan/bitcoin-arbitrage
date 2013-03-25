@@ -106,7 +106,7 @@ class Arbitrer(object):
             for j in range(maxj + 1):
                 profit, volume, w_buyprice, w_sellprice = \
                     self.get_profit_for(i, j, kask, kbid)
-                if profit >= 0 and profit >= best_profit:
+                if profit >= 0 and profit >= best_profit and volume > config.min_tx_volume:
                     best_profit = profit
                     best_volume = volume
                     best_i, best_j = (i, j)
