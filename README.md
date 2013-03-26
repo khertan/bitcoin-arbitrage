@@ -18,7 +18,7 @@ Currently supported exchanges to automate trade:
 
 To add a new exchange see this [doc/add-new-exchange.md](doc/add-new-exchange.md)
 
-Donation are always welcome: ****
+Donation are always welcome: **18tFSEMgeHbCK28hAC81RT6cNCjCDZ91sx**
 
 # WARNING
 
@@ -63,6 +63,7 @@ opportunities with slower exchanges.
 
 MIT
 
+Copyright (c) 2013 Benoît <khertan@khertan.net>
 Copyright (c) 2013 Maxime Biais <firstname.lastname@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
