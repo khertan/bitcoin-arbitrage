@@ -18,7 +18,7 @@ Currently supported exchanges to automate trade:
 
 To add a new exchange see this [doc/add-new-exchange.md](doc/add-new-exchange.md)
 
-Donation are always welcome: ****
+Donation are always welcome: **18tFSEMgeHbCK28hAC81RT6cNCjCDZ91sx**
 
 # WARNING
 
