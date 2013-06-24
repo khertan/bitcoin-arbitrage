@@ -38,7 +38,10 @@ nosetests.xml
 *.json
 
 # Project
-src/config.py
-src/observers/khertantraderbot.py
-src/observers/khertantraderbotsim.py
+arbitrage/config.py
+arbitrage/observers/khertantraderbot.py
+arbitrage/observers/khertantraderbotsim.py
 old/
+config.py
+old/
+tmp/

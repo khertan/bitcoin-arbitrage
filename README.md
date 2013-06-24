@@ -1,20 +1,24 @@
 # bitcoin-arbitrage - opportunity detector and automated trading
-# Khertan Fork
+
+## Khertan Fork
 
 It gets order books from supported exchanges and calculate arbitrage
 opportunities between each markets. It takes market depth into account.
 
 Currently supported exchanges to get data:
- - Bitcoin24
- - Bitcoin-Central
- - Intersango
- - Bitstamp
- - MtGox
- - BTC-e
+
+ * MtGox (USD, EUR)
+ * Bitstamp (USD, ~EUR)
+ * Bitcoin24 (EUR)
+ * Bitfloor (USD)
+ * Bitcoin-Central (EUR)
+ * BTC-e (USD, EUR)
+ * Intersango (EUR)
 
 Currently supported exchanges to automate trade:
- - Bitcoin-Central
- - MtGox
+ * MtGox (EUR, USD)
+ * Bitstam (USD)
+ * Bitcoin-Central (EUR) - closed
 
 To add a new exchange see this [doc/add-new-exchange.md](doc/add-new-exchange.md)
 
@@ -70,4 +74,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
